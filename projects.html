@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>CPS630 - Lab 1 - Projects</title>
+
+    <meta name=viewport content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" type="text/css" href="css/theme.css"/>
+    <link rel="icon" type="image/png" href="img/favicon"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="header-element"><a class="smallCaps" href="index.html">Home</a></li>
+            <li class="header-element"><a class="smallCaps" href="aboutme.html">About</a></li>
+            <li class="active header-element"><a class="smallCaps">Projects</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="section-projects-top" class="panel-container">
+            <section id="section-projects-info" class="panel">
+                <header>
+                    <div class="ribbon"></div>
+                    <h3 class="smallCaps header-section">Recent Projects</h3>
+                </header>
+
+                <article class="panel-inset">
+                    <p>I have developed several projects in my spare time, developed
+                    primarily in Java, usually incorporating databases. These
+                    projects were developed mainly for Windows and Android platforms.
+                    See below for more details.</p>
+                </article>
+            </section>
+
+            <aside id="aside-projects-current" class="panel">
+                <header>
+                    <div class="ribbon"></div>
+                    <h3 class="smallCaps header-section">Current Project</h3>
+                </header>
+
+                <article id="article-aboutme2" class="panel-inset">
+                    <figure>
+                        <a href="#project-1"><img class="img-xs center" alt="" src="img/mhgendex/mhgendex-icon.png"/></a>
+                        <figcaption>
+                            <a href="#project-1">MHGen Dex</a>
+                        </figcaption>
+                    </figure>
+                </article>
+            </aside>
+        </section>
+
+        <section id="project1" class="panel section-project">
+            <header>
+                <div class="ribbon"></div>
+                <h3 class="smallCaps header-section">MHGen Dex</h3>
+                <h5 class="smallCaps subheader-section">01/21/2017</h5>
+            </header>
+
+            <article class="panel-inset container-float">
+                <p><img class="img-sm float-left" alt="" src="img/mhgendex/mhgendex-icon.png"/>
+                What is the <strong>MHGen Dex</strong>? It is a progress tracking
+                mobile application for Capcom's <strong>Monster Hunter Generations</strong>
+                (MHGen for short), built by a completionist, for completionists.
+                In particular, it is built for <strong>Android 5.0</strong> (Lollipop), and
+                allows users to keep track of progress in their quest to collect
+                all of the items strongest weapons and armors--all with the
+                speed and convenience of a mobile application.</p>
+
+                <p><figure class="imgWrap float-right">
+                    <img class="img-md img-shadow" alt="" src="img/mhgendex/mhgendex-main.jpg"/>
+                    <figcaption class="imgDescription">
+                        <div>Main screen</div>
+                    </figcaption>
+                </figure>
+                The MHGen Dex is capable of keeping track of both armor and
+                weapon completion progress. Each tab displays a list of tiles,
+                each displaying a compact set of information about the item,
+                including it's name, rarity, hunter gender and hunter type.
+                <br/><br/>
+                As items are completed, the background color of the tile will
+                change to indicate this. Items can be <strong>pinned</strong>
+                and will appear first in the list for quick and easy access.
+                Also, not only can specific items be searched for, but the list
+                can also be filtered to only display items for your specific hunter
+                setup--gender, hunter type and even specific weapon type!</p>
+
+                <p><figure class="imgWrap float-left">
+                    <img class="img-md img-shadow" alt="" src="img/mhgendex/mhgendex-detail.jpg"/>
+                    <figcaption class="imgDescription">
+                        <div>Item detail screen</div>
+                    </figcaption>
+                </figure>
+                Selecting any item on the list will bring up detailed information
+                about it including stats, and crafting components. As these
+                components are collected, they can be checked off, and will
+                count towards their completion.</p>
+            </article>
+        </section>
+
+        <section id="project2" class="panel section-project">
+            <header>
+                <div class="ribbon"></div>
+                <h3 class="smallCaps header-section">Kalibur Engine</h3>
+                <h5 class="smallCaps subheader-section">01/21/2017</h5>
+            </header>
+
+            <article class="panel-inset container-float">
+                <p><img class="img-sm float-left" alt="" src="img/hke/hke-icon.png"/>
+                The <strong>Kalibur Engine</strong> is a text-based RPG development
+                framework and engine, build in <strong>Java</strong> for use on Windows platforms.
+                The engine allows a game to be dynamcially generated given a set
+                of XML input files. Entire areas/location, weather systems,
+                enemies/encounters, events, dialogue, items, and more can be
+                generated from a set of files.</p>
+
+                <p><figure class="imgWrap float-right">
+                    <img class="img-md img-shadow" alt="" src="img/hke/hke-main.png"/>
+                    <figcaption class="imgDescription">
+                        <div>Main screen</div>
+                    </figcaption>
+                </figure>
+                Provided with an XML file, the engine can <strong>dynamically
+                generate</strong> an area's map, and populate it with "rooms",
+                NPC's and events. Generated weather can effect which events occur,
+                which NPC's are present, and can even provide Buffs and Debuffs
+                in battle. Generated enemies can be encountered in battle, use generated
+                attacks, and drop generated items. These items and gear can be
+                equipped, upgraded, or sold to NPC's. And that's just to name a
+                few</p>
+
+                <p><figure class="imgWrap float-left">
+                    <img class="img-md img-shadow" alt="" src="img/hke/hke-xml.png"/>
+                    <figcaption class="imgDescription">
+                        <div>Location XML</div>
+                    </figcaption>
+                </figure>
+                The highly customizable Events and Dialogue systems can trigger events
+                based on <strong>nearly any condition</strong> in the game, ranging from date/time/location,
+                to having a certain number of items, to having cleared a previous event,
+                or having defeated an enemy. In fact, it is possible to generate complex
+                systems such as gear crafting, or character and faction affinities, and
+                their related events.
+                </p>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <details class="smallCaps">
+            <summary>&copy; 2017</summary>
+            <div>Christopher Collins 500512454</div>
+        </details>
+    </footer>
+</body>
+</html>
